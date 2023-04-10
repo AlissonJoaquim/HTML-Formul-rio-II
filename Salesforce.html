@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Formulário de Oportunidade Salesforce</title>
+    <link rel="stylesheet" type="text/css" href="salesforcecss.css">
+  </head>
+  <body>
+    <h1>Formulário de Oportunidade Salesforce</h1>
+   
+    <form>
+      <label>
+        <input type="checkbox" name="particular"> Particular
+      </label>
+      <label>
+        Nome da Oportunidade:
+        <input type="text" name="nome" required>
+      </label>
+      <label>
+        Valor:
+        <input type="number" name="valor" required>
+      </label>
+      <label>
+        Fase:
+        <select name="fase">
+          <option value="Prospect">Prospect</option>
+          <option value="Qualification">Qualification</option>
+          <option value="Needs Analysis">Needs Analysis</option>
+          <option value="Value Proposition">Value Proposition</option>
+          <option value="Id. Decision Makers">Id. Decision Makers</option>
+          <option value="Perception Analysis">Perception Analysis</option>
+          <option value="Proposal/Price Quote">Proposal/Price Quote</option>
+          <option value="Negotiation/Review">Negotiation/Review</option>
+          <option value="Closed Won">Closed Won</option>
+          <option value="Closed Lost">Closed Lost</option>
+        </select>
+      </label>
+      <label>
+        Tipo:
+        <select name="tipo">
+          <option value="New Business">New Business</option>
+          <option value="Existing Business - Upsell">Existing Business - Upsell</option>
+          <option value="Existing Business - Renewal">Existing Business - Renewal</option>
+          <option value="Existing Business - Other">Existing Business - Other</option>
+        </select>
+      </label>
+      <button type="submit">Salvar</button>
+    </form>
+  </body>
+</html>
