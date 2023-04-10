@@ -1,0 +1,104 @@
+html
+/* Definindo as cores a serem utilizadas no site */
+:root {
+    --cor-primaria: #2c3e50;
+    --cor-secundaria: #e74c3c;
+    --cor-terciaria: #f1c40f;
+  }
+  
+  /* Estilo do corpo do site */
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-image: url("https://i.ytimg.com/vi/lwvlClH5jW4/maxresdefault.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: var(--cor-primaria);
+    line-height: 1.5;
+  }
+  
+  /* Estilo do cabeçalho */
+  header {
+    background-color: var(--cor-primaria);
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo do logo no cabeçalho */
+  header h1 {
+    margin: 0;
+    font-size: 32px;
+    letter-spacing: 2px;
+  }
+  
+  /* Estilo da navegação no cabeçalho */
+  nav {
+    display: flex;
+    align-items: center;
+  }
+  
+  nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.2s ease-in-out;
+  }
+  
+  nav a:hover {
+    color: var(--cor-terciaria);
+  }
+  
+  /* Estilo do conteúdo principal */
+  main {
+    padding: 50px;
+  }
+  
+  /* Estilo da seção "Sobre o site" */
+  #sobre {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #sobre h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #sobre p {
+    max-width: 700px;
+    text-align: justify;
+    margin-bottom: 30px;
+  }
+  
+  #sobre img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Estilo do rodapé */
+  footer {
+    background-color: var(--cor-primaria);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 -5px 10px rgba(0, 0, 0, 0.1);
+  }
